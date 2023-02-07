@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LinkContainer } from "react-router-bootstrap";
+import '../App.css';
+import { BsFillCartFill } from "react-icons/bs";
 
 export default function NavBar(props){
     return(
@@ -35,6 +37,10 @@ export default function NavBar(props){
                 </Nav>
                 </Navbar.Collapse>
             </Container>
+            <div className='cart-icon'>
+                <BsFillCartFill className='icon'/>
+                <p>1</p>
+            </div>
     </Navbar>
     )
 }

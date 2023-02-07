@@ -80,3 +80,39 @@ body{
   color: antiquewhite;
   padding: 20px;
 }
+
+.categories{
+  display: flex;
+}
+
+.category{
+  border: 1px solid black;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 10px;
+  padding: 5px !important;
+  cursor: pointer;
+  transition: .5s !important;
+}
+
+.category:hover {
+  color: antiquewhite !important;
+  background-color: #282c34;
+}
+
+.cart-icon{
+  font-size: 1.5em;
+  margin-right: 20px;
+  display: flex;
+}
+
+.cart-icon p{
+  padding: 0px;
+  font-size: .8em !important;
+}
+
+.icon{
+  padding: 0px;
+}
