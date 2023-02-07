@@ -29,10 +29,10 @@ function App() {
             <Route path="/store/mobile-phones" element={<MyCart.MobilesCart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/laptops" element={<MyCart.LaptopCart/>}>
+            <Route path="/store/laptops" element={<MyCart.LaptopCart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/earphones" element={<MyCart.EarphonesCart/>}>
+            <Route path="/store/earphones" element={<MyCart.EarphonesCart/>}>
             </Route>
         </Routes>
         
