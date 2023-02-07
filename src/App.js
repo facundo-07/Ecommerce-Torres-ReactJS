@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './components/Nav.jsx';
 import Title from './components/Title.jsx';
 // import Cart from './components/Cart.jsx';
-import { Router, Routes, Route } from "react-router-dom";
+import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import {Home} from './components/Home.jsx';
 import MyCart from './components/Cart.jsx';
 
@@ -10,9 +10,12 @@ import MyCart from './components/Cart.jsx';
 function App() {
   return (
     <div>
+        
         <NavBar/>
+        
         <Routes>
-            <Route exact path="/Preentrega1-Torres-ReactJS" element={<Home/>}>
+            
+            <Route exact path="/" index element={<Home title={'E-commerce'}/>}>
             </Route>
 
             <Route path="/store" element={<MyCart.Cart/>}>
@@ -33,6 +36,7 @@ function App() {
             <Route path="/Preentrega1-Torres-ReactJS/store/earphones" element={<MyCart.EarphonesCart/>}>
             </Route>
         </Routes>
+        
     </div>
   );
 };
