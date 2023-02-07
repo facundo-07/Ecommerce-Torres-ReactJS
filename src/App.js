@@ -11,7 +11,7 @@ function App() {
     <div>
         <NavBar/>
         <Routes>
-            <Route path="/Ecommerce-Torres-ReactJS" element={<Home/>}>
+            <Route path="/" element={<Home/>}>
             </Route>
 
             <Route path="/store" element={<Cart/>}>
