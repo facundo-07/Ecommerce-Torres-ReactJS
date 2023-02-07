@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ecommerce-Torres-ReactJS/static/css/main.28229152.css",
-    "main.js": "/Ecommerce-Torres-ReactJS/static/js/main.14d62efd.js",
+    "main.js": "/Ecommerce-Torres-ReactJS/static/js/main.b2996463.js",
     "static/js/787.f1f52891.chunk.js": "/Ecommerce-Torres-ReactJS/static/js/787.f1f52891.chunk.js",
     "static/media/tiger.jpg": "/Ecommerce-Torres-ReactJS/static/media/tiger.094b3187864839a59875.jpg",
     "index.html": "/Ecommerce-Torres-ReactJS/index.html",
     "main.28229152.css.map": "/Ecommerce-Torres-ReactJS/static/css/main.28229152.css.map",
-    "main.14d62efd.js.map": "/Ecommerce-Torres-ReactJS/static/js/main.14d62efd.js.map",
+    "main.b2996463.js.map": "/Ecommerce-Torres-ReactJS/static/js/main.b2996463.js.map",
     "787.f1f52891.chunk.js.map": "/Ecommerce-Torres-ReactJS/static/js/787.f1f52891.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28229152.css",
-    "static/js/main.14d62efd.js"
+    "static/js/main.b2996463.js"
   ]
 }
