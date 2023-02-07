@@ -12,25 +12,25 @@ function App() {
     <div>
         <NavBar/>
         <Routes>
-            <Route exact path="/" element={<Home/>}>
+            <Route exact path="/Preentrega1-Torres-ReactJS" element={<Home/>}>
             </Route>
 
-            <Route path="/store" element={<MyCart.Cart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store" element={<MyCart.Cart/>}>
             </Route>
 
-            <Route path="/store/smart-tvs" element={<MyCart.SmartCart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store/smart-tvs" element={<MyCart.SmartCart/>}>
             </Route>
 
-            <Route path="/store/speakers" element={<MyCart.SpeakerCart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store/speakers" element={<MyCart.SpeakerCart/>}>
             </Route>
 
-            <Route path="/store/mobile-phones" element={<MyCart.MobilesCart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store/mobile-phones" element={<MyCart.MobilesCart/>}>
             </Route>
 
-            <Route path="/store/laptops" element={<MyCart.LaptopCart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store/laptops" element={<MyCart.LaptopCart/>}>
             </Route>
 
-            <Route path="/store/earphones" element={<MyCart.EarphonesCart/>}>
+            <Route path="/Preentrega1-Torres-ReactJS/store/earphones" element={<MyCart.EarphonesCart/>}>
             </Route>
         </Routes>
     </div>
