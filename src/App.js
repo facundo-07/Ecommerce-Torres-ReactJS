@@ -10,9 +10,8 @@ function App() {
   return (
     <div>
         <NavBar/>
-
         <Routes>
-            <Route path="/" element={<Home/>}>
+            <Route path="/Ecommerce-Torres-ReactJS" element={<Home/>}>
             </Route>
 
             <Route path="/store" element={<Cart/>}>
