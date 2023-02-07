@@ -15,19 +15,19 @@ function App() {
             <Route exact path="/Preentrega1-Torres-ReactJS" element={<Home/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store" element={<MyCart.Cart/>}>
+            <Route path="/store" element={<MyCart.Cart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/smart-tvs" element={<MyCart.SmartCart/>}>
+            <Route path="/store/smart-tvs" element={<MyCart.SmartCart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/speakers" element={<MyCart.SpeakerCart/>}>
+            <Route path="/store/speakers" element={<MyCart.SpeakerCart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/mobile-phones" element={<MyCart.MobilesCart/>}>
+            <Route path="/store/mobile-phones" element={<MyCart.MobilesCart/>}>
             </Route>
 
-            <Route path="/Preentrega1-Torres-ReactJS/store/laptops" element={<MyCart.LaptopCart/>}>
+            <Route path="/store/laptops" element={<MyCart.LaptopCart/>}>
             </Route>
 
             <Route path="/Preentrega1-Torres-ReactJS/store/earphones" element={<MyCart.EarphonesCart/>}>
