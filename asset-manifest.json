@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Preentrega1-Torres-ReactJS/static/css/main.d1c30cc5.css",
-    "main.js": "/Preentrega1-Torres-ReactJS/static/js/main.6e8465ae.js",
+    "main.js": "/Preentrega1-Torres-ReactJS/static/js/main.c53e89d9.js",
     "static/js/787.f1f52891.chunk.js": "/Preentrega1-Torres-ReactJS/static/js/787.f1f52891.chunk.js",
     "static/media/mobile.jpg": "/Preentrega1-Torres-ReactJS/static/media/mobile.9c9489270d879189e60b.jpg",
     "static/media/speaker.jpg": "/Preentrega1-Torres-ReactJS/static/media/speaker.591e58402646e184e395.jpg",
     "static/media/earphones.jpg": "/Preentrega1-Torres-ReactJS/static/media/earphones.375f32ea31d7ffde3dcd.jpg",
     "index.html": "/Preentrega1-Torres-ReactJS/index.html",
     "main.d1c30cc5.css.map": "/Preentrega1-Torres-ReactJS/static/css/main.d1c30cc5.css.map",
-    "main.6e8465ae.js.map": "/Preentrega1-Torres-ReactJS/static/js/main.6e8465ae.js.map",
+    "main.c53e89d9.js.map": "/Preentrega1-Torres-ReactJS/static/js/main.c53e89d9.js.map",
     "787.f1f52891.chunk.js.map": "/Preentrega1-Torres-ReactJS/static/js/787.f1f52891.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1c30cc5.css",
-    "static/js/main.6e8465ae.js"
+    "static/js/main.c53e89d9.js"
   ]
 }
