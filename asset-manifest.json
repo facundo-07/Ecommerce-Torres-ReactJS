@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ecommerce-Torres-ReactJS/static/css/main.28229152.css",
-    "main.js": "/Ecommerce-Torres-ReactJS/static/js/main.b2996463.js",
-    "static/js/787.f1f52891.chunk.js": "/Ecommerce-Torres-ReactJS/static/js/787.f1f52891.chunk.js",
-    "static/media/tiger.jpg": "/Ecommerce-Torres-ReactJS/static/media/tiger.094b3187864839a59875.jpg",
-    "index.html": "/Ecommerce-Torres-ReactJS/index.html",
-    "main.28229152.css.map": "/Ecommerce-Torres-ReactJS/static/css/main.28229152.css.map",
-    "main.b2996463.js.map": "/Ecommerce-Torres-ReactJS/static/js/main.b2996463.js.map",
-    "787.f1f52891.chunk.js.map": "/Ecommerce-Torres-ReactJS/static/js/787.f1f52891.chunk.js.map"
+    "main.css": "/static/css/main.28229152.css",
+    "main.js": "/static/js/main.074941ec.js",
+    "static/js/787.f1f52891.chunk.js": "/static/js/787.f1f52891.chunk.js",
+    "static/media/tiger.jpg": "/static/media/tiger.094b3187864839a59875.jpg",
+    "index.html": "/index.html",
+    "main.28229152.css.map": "/static/css/main.28229152.css.map",
+    "main.074941ec.js.map": "/static/js/main.074941ec.js.map",
+    "787.f1f52891.chunk.js.map": "/static/js/787.f1f52891.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28229152.css",
-    "static/js/main.b2996463.js"
+    "static/js/main.074941ec.js"
   ]
 }
