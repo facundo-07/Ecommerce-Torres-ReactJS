@@ -6,12 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { LinkContainer } from "react-router-bootstrap";
 import '../App.css';
 import { BsFillCartFill } from "react-icons/bs";
+import Counter from "./Counter.jsx"
 
-export default function NavBar(props){
+export default function NavBar(){
     return(
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -37,9 +38,10 @@ export default function NavBar(props){
                 </Nav>
                 </Navbar.Collapse>
             </Container>
+            <Counter/>
             <div className='cart-icon'>
                 <BsFillCartFill className='icon'/>
-                <p>1</p>
+                
             </div>
     </Navbar>
     )

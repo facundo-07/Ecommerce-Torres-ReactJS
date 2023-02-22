@@ -1,29 +1,68 @@
 import Title from './Title';
 import '../App.css';
-import Products from './Products.jsx';
+import {ItemList} from './ItemList';
 import { LinkContainer } from "react-router-bootstrap";
-import earphones from '../media/earphones.jpg';
-import laptop from '../media/laptop.jpg';
-import speaker from '../media/speaker.jpg';
-import smart from '../media/smart.jpg';
-import mobile from '../media/mobile.jpg';
+
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Cart(){
-    return(
-      <div>
-        <Title text='Store'/>
-        <Categories/>
-      </div>
-    );
+import {products} from "../data/products.js";
+import { useEffect, useState } from 'react';
+import Item from './Item';
+
+import { useParams } from 'react-router-dom';
+
+
+
+
+
+export default function Cart(){
+
+  const {categoryId} = useParams();
+
+  const [prodList, setProdList] = useState([]); 
+
+  const getProducts = new Promise((res, rej)=>{
+
+    if (categoryId){
+      const filteredProducts = products.filter((item)=>item.category===categoryId);
+      setTimeout(()=>{
+      res(filteredProducts)
+    }, 500)
+    } else{
+      setTimeout(()=>{
+        res(products)
+      }, 500)
+    }
+
+    
+  });
+
+  useEffect(()=>{
+    getProducts
+    .then((response)=>{
+      setProdList(response);
+    })
+    .catch((error)=>{
+      console.log(error)
+    })
+  }, [categoryId]);
+
+
+  return(
+    <div>
+      <Title text={categoryId != undefined ? `Store -> ${categoryId}` : 'Store'} />
+      <Categories/>
+      <ItemList productList={prodList}/>
+    </div>
+  );    
   }
 
   
 function Categories(){
   return(
     <div className='categories'>
-      <LinkContainer to='/store/earphones' >
+      <LinkContainer to='/store/earphones'>
         <Nav.Link className='category'>Earphones</Nav.Link>
       </LinkContainer>
       <LinkContainer to='/store/laptops' >
@@ -42,49 +81,47 @@ function Categories(){
   )
 };
 
-function EarphonesCart(){
-  return(
-    <div>
-      <Cart/>
-      <Products product={earphones}/>
-    </div>
-  );
-};
+// function EarphonesCart(){
+//   return(
+//     <div>
+//       <Cart/>
+//       <Products product={earphones}/>
+//     </div>
+//   );
+// };
 
-function MobilesCart(){
-  return(
-    <div>
-      <Cart/>
-      <Products product={mobile}/>
-    </div>
-  );
-};
+// function MobilesCart(){
+//   return(
+//     <div>
+//       <Cart/>
+//       <Products product={mobile}/>
+//     </div>
+//   );
+// };
 
-function LaptopCart(){
-  return(
-    <div>
-      <Cart/>
-      <Products product={laptop}/>
-    </div>
-  );
-};
+// function LaptopCart(){
+//   return(
+//     <div>
+//       <Cart/>
+//       <Products product={laptop}/>
+//     </div>
+//   );
+// };
 
-function SmartCart(){
-  return(
-    <div>
-      <Cart/>
-      <Products product={smart}/>
-    </div>
-  );
-};
+// function SmartCart(){
+//   return(
+//     <div>
+//       <Cart/>
+//       <Products product={smart}/>
+//     </div>
+//   );
+// };
 
-function SpeakerCart(){
-  return(
-    <div>
-      <Cart/>
-      <Products product={speaker}/>
-    </div>
-  );
-};
-
-export default {Cart, EarphonesCart, MobilesCart, SpeakerCart, SmartCart, LaptopCart}
+// function SpeakerCart(){
+//   return(
+//     <div>
+//       <Cart/>
+//       <Products product={speaker}/>
+//     </div>
+//   );
+// };

@@ -72,6 +72,7 @@ body{
 .container img{
   width: 90%;
   justify-self: center;
+  height: 180px;
 }
 
 .title{
@@ -115,4 +116,20 @@ body{
 
 .icon{
   padding: 0px;
+}
+
+.counter{
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.counter button{
+  border: none;
+  background-color: inherit;
+}
+
+.counter div{
+  margin-inline: 10px;
 }
